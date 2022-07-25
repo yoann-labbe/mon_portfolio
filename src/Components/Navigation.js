@@ -14,25 +14,25 @@ const Navigation = () => {
       <div className="navigation">
         <ul>
           <li>
-            <NavLink exact to="/" style={({ isActive }) => ({ color: isActive ? '#91BFBC' : '#738A90' })}>
+            <NavLink to="/" style={({ isActive }) => ({ color: isActive ? '#91BFBC' : '#738A90' })}>
               <i className="fas fa-home"></i>
               <span>Accueil</span>
             </NavLink>
           </li>
           <li>
-            <NavLink exact to="/competences" style={({ isActive }) => ({ color: isActive ? '#91BFBC' : '#738A90' })}>
+            <NavLink to="/competences" style={({ isActive }) => ({ color: isActive ? '#91BFBC' : '#738A90' })}>
               <i className="fas fa-mountain"></i>
               <span>Compétences</span>
             </NavLink>
           </li>
           <li>
-            <NavLink exact to="/portfolio" style={({ isActive }) => ({ color: isActive ? '#91BFBC' : '#738A90' })}>
+            <NavLink to="/portfolio" style={({ isActive }) => ({ color: isActive ? '#91BFBC' : '#738A90' })}>
               <i className="fas fa-images"></i>
               <span>Portfolio</span>
             </NavLink>
           </li>
           <li>
-            <NavLink exact to="/contact" style={({ isActive }) => ({ color: isActive ? '#91BFBC' : '#738A90' })}>
+            <NavLink to="/contact" style={({ isActive }) => ({ color: isActive ? '#91BFBC' : '#738A90' })}>
               <i className="fas fa-address-book"></i>
               <span>Contact</span>
             </NavLink>
